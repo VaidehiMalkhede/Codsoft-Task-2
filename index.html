@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <title>Vaidehi Profile</title>
+</head>
+<body>
+<!-- ! Header Section Start -->
+    <header>
+        <nav>
+            <div class="nav-left"><a href="index.html"><img src="images/logo.png" alt="Logo" class="logo"></div>
+            <div class="nav-center">
+                <ul>
+                    <li><a href="#Home"> Home </a></li>
+                    <li><a href="#About-me"> About Me </a></li>
+                    <li><a href="#My-Services"> Services </a></li>
+                    <li><a href="#qualification">Qualification</a></li>
+                    <li><a href="#project"> Project</a></li>
+                    <li><a href="#Get-in-Touch"> Contact </a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <button class="btn" onclick="downloadCV()">Download CV</button>
+            </div>
+            
+            <script>
+            function downloadCV() {
+                const link = document.createElement('a');
+                link.href = 'images/CV.pdf';  
+                link.download = 'CV.pdf';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            }
+            </script>
+            
+        </nav>
+    </header>
+<!-- ! Header Section End -->
+    <main>
+<!-- ! Hero Section Start -->
+        <section id="Home" class="main-hero--section">
+            <div class="mid-hero--section">
+                <img src="images/profile.png" width="100%" height="90%">
+                <h1><span>Hello I'm Vaidehi Malkhede</span><br> Frontend Developer, Web Design</h1>
+                <p>I am a Web Designer from Amravati, Maharashtra, India.</p>
+                <div class="btn-box">
+                    <a href="#Get-in-Touch"><button id="btn1" class="btn btn1">Connect With Me</button></a>
+                    <a href="images/resume.jpg" target="_blank" onclick="downloadCV()"><button class="btn btn1 btn2">My Resume</button></a>
+                </div>
+            </div>
+        </section>
+<!-- ! Hero Section End -->
+<!-- ! About Section Start -->
+        <section id="About-me" class="main-aboutus">
+            <div class="mid-aboutus">
+                <h2 class="heading">About me</h2>
+                <div class="about-container">
+                    <div class="about-left">
+                        <img src="images/about.jpg">
+                    </div>
+                    <div class="about-right">
+                        <p>I am Computer Science and Engineering Student with passion about Web Development. I have hands-on experience in web design projects, shocasing my ability to create user-friendly websites. </p>
+                        <p>I'm always on the lookout for new tools and techniques to improve my work, and I enjoy collaborating with others and always eager to learn. Currrently I am learning Nodejs and MongoDB for backend development.</p>
+                        <div class="lang-container">
+                            <div class="lang-items">
+                                <ul>
+                                    <li>HTML & CSS <div class="line"></div><span>90 %</span></li>
+                                    <li>JavaScript <div class="line"></div><span>70 %</span></li>
+                                    <li>Python <div class="line"></div><span>80 %</span></li>
+                                    <li>Java <div class="line"></div><span>80 %</span></li>
+                                    <li>Web Design<div class="line"></div><span>90 %</span></li>
+                                    <li>Android<div class="line"></div><span>60 %</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>    
+                </div>
+                <div class="achivements-container">
+                    <div class="achivements-items">
+                        <h3>2+</h3>
+                        <p>YEARS OF EXPERIENCE</p>
+                    </div>
+                    <div class="achivements-items">
+                        <h3>10+</h3>
+                        <p>PROJECTS COMPLETED</p>
+                    </div>
+                    <div class="achivements-items">
+                        <h3>5+</h3>
+                        <p>INTERNSHIP COMPLETED</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- ! About Section End -->
+ 
+<!-- ! Services Section Start -->
+<section id="My-Services" class="main-services">
+    <div class="mid-services">
+        <h2 class="heading">My Services</h2>
+        <div class="services-container">
+            <div class="services-items">
+                <div><i class="fas fa-code"></i></div>
+                <h4>Web Development</h4>
+                <p>Creating user-friendly and responsive websites...</p>
+                <a href="">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <div class="services-items">
+                <div><i class="fas fa-desktop"></i></div>
+                <h4>Web Application Development</h4>
+                <p>Developing interactive and dynamic web applications...</p>
+                <a href="">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <div class="services-items">
+                <div><i class="fas fa-mobile-alt"></i></div>
+                <h4>Mobile Application Development</h4>
+                <p>Creating intuitive applications for Android...</p>
+                <a href="">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <div class="services-items">
+                <div><i class="fas fa-columns"></i></div>
+                <h4>Frontend Frameworks</h4>
+                <p>Bootstrap for consistent and efficient development...</p>
+                <a href="">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <div class="services-items">
+                <div><i class="fas fa-shopping-cart"></i></div>
+                <h4>E-commerce Development</h4>
+                <p>Building online stores, integrating payment gateways etc ...</p>
+                <a href="">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+            <div class="services-items">
+                <div><i class="fas fa-mobile"></i></div>
+                <h4>Responsive Web Design</h4>
+                <p>Ensuring websites function well on all devices & screen sizes...</p>
+                <a href="">Read More <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ! Services Section End -->           
+<!-- Qualification Section Start -->
+<section id="qualification" class="main-qualification">
+    <h2 class="heading">Qualification</h2>
+    <div class="mid-qualification">
+        <div class="qualification-container">
+            <div class="qualification-column">
+                <h3 class="qualification-title">Education</h3>
+                <div class="qualification-item">
+                    <span class="year">2006 - 2020</span>
+                    <h4>SSC School Degree</h4>
+                    <p>I done my schooling from Jingle Bell English School, Chandur Rly, Dist. Amravati, Maharashtra  with first class distinction with 87 percentage.</p>
+                </div>
+                <div class="qualification-item">
+                    <span class="year">2020 - 2023</span>
+                    <h4>Diploma Degree (MSBTE)</h4>
+                    <p>I have completed my Diploma in Computer Science from Dr. Panjabrao Deshmukh Polytechnic, Amravati, Maharashtra with a score of first class distinction.</p>
+                </div> 
+                <div class="qualification-item">
+                    <span class="year">2023 - 2026</span>
+                    <h4>Bachelor Of Engineering</h4>
+                    <p>Currently I am pursuing Bachelor's Degree in Computer Science and Engineering from P. R. Pote Patil College Of Engineering and Management, Amravati.</p>
+                </div>
+            </div>
+            <div class="qualification-column">
+                <h3 class="qualification-title">Experience</h3>
+                <div class="qualification-item">
+                    <span class="year">2022 - Present</span>
+                    <h4>Web Development & Design</h4>
+                    <p>I am passionate about frontend development and currently learning backend technologies. I am able to build rersponsive & interactive websites.</p>
+                </div>
+                <div class="qualification-item">
+                    <span class="year">2022 - Present</span>
+                    <span class="year"></span>
+                    <h4>Frontend Development</h4>
+                    <p>I have a very good experience in front-end projects and I have developed 10+ projects till now which shocasing the user-friendly web designs.</p>
+                </div>
+                <div class="qualification-item">
+                    <span class="year">203 - Present</span>
+                    <h4>Android Development</h4>
+                    <p>I am good at designing responsive mobile pages and interface design and I am trying to improve my skills regarding Mobile App Development.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Qualification Section End -->
+           
+<!-- ! Project Work Section Start -->
+<section id="project" class="main-latest--work">
+    <div class="mid-latest--work">
+        <h2 class="heading">My Project Work</h2>
+        <div class="work-container">
+            <div class="work-items">
+            <a href="https://primapunepoint.netlify.app/" target="_blank"><img src="images/project1.png"></a>
+            </div>
+            
+            <div class="work-items">
+                <a href="" target="_blank"><img src="images/project2.png"></a>
+            </div>
+            <div class="work-items">
+                <a href="https://github.com/VaidehiMalkhede/Restaurant_Website/" target="_blank"><img src="images/project3.png"></a>
+            </div>
+            <div class="work-items">
+                <a href="https://vaidehimalkhede.github.io/Codsoft-Task-1/" target="_blank"><img src="images/project4.png"></a>
+            </div>
+            <div class="work-items">
+                <a href="https://vaidehimalkhede.github.io/Codsoft-Task-3-Calculator/" target="_blank"><img src="images/project5.png"></a>
+            </div>
+            <div class="work-items">
+                <a href="https://github.com/VaidehiMalkhede/To-Do-List/" target="_blank"><img src="images/project6.png"></a>
+            </div>
+        </div>
+        <div id="project-info" class="project-info"></div>
+        <button class="btn3">Show More <i class="fa-solid fa-arrow-right-long"></i></button>
+    </div>
+</section>
+<!-- ! Project Work Section End -->
+
+<!-- ! Get in Touch Section Start -->
+        <section id="Get-in-Touch" class="main-get--touch">
+            <div class="mid-get--touch">
+                <h2 class="heading">Get in touch</h2>
+                <div class="get-touch--container">
+                    <div class="get-touch--left">
+                        <h3>Let's talk</h3>
+                        <p>If you havev any dought feel free to send me a message about anything that you want me to work on.</p>
+                        <ul>
+                            <li><i class="fa-solid fa-envelope"></i> vaidehimalkhede@gmail.com</li>
+                            <li><i class="fa-solid fa-phone-volume"></i> +91 7558519511</li>
+                            <li><i class="fa-solid fa-location-dot"></i> Amravati, Maharashtra, India</li>
+                        </ul>
+                        <ul class="social-media">
+                            <li><a href="https://github.com/VaidehiMalkhede" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/vaidehi-malkhede-8b1955306/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="https://www.instagram.com/vaidehi_malkhede/?igsh=eTNka2VrZ250ZGto" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="get-touch--right">
+                        <div class="form">
+                            <form action="https://formspree.io/f/xwkgdqeq" method="POST">
+                                <div class="form-row">
+                                    <label for="">Your Name</label>
+                                    <input type="text" name="name" placeholder="Enter your name *" required>
+                                </div>
+                                <div class="form-row">
+                                    <label for="">Mobile Number</label>
+                                    <input type="tel" name="mobile" placeholder="Mobile Number (optional)">
+                                </div>
+                                <div class="form-row">
+                                    <label for="">Work Email</label>
+                                    <input type="email" name="email" placeholder="Work Email *" required>
+                                </div>
+                                <div class="form-row">
+                                    <label for="">Write your message here</label>
+                                    <input type="text" name="message" placeholder="How can we help?">
+                                </div>
+                                <button type="submit" class="btn3 btn4">Submit<i class="fa-solid fa-chevron-right"></i></button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+<!-- ! Get in Touch Section End -->
+<!-- ! Footer Section Start -->
+        <section id="Subscribe" class="main-footer">
+            <div class="first-footer">
+                <div class="first-footer--container">
+                    <div class="first-footer--items">
+                        <div class="logo-txt heading">Vaidehi Malkhede</div>
+                        <p>I am a Frontend Developer with 2 years of experience in Web Development.</p>
+                    </div>
+                    <div class="first-footer--items">
+                        <input type="email" name="email" placeholder="Enter Your Email">
+                        <button class="btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="second-footer">
+                <div> Copyright © 2024 Vaidehi Malkhede. All rights reserved.</div>
+                <ul>
+                    <li>Term of Services</li>
+                    <li>Privacy Policy</li>
+                    <li>Connect With Me</li>
+                </ul>
+            </div>
+        </section>
+<!-- ! Footer Section End -->
+<!-- ! Position Arrow Section Start -->
+        <section class="position-arrow">
+            <a href="#"><div class="circle">
+                <i class="fa-solid fa-arrow-up"></i>
+            </div></a>
+        </section>
+<!-- ! Position Arrow Section End -->
+    </main>
+
+     <!-- Link to the JavaScript file -->
+     <script src="JS/script.js"></script>
+</body>
+</html>

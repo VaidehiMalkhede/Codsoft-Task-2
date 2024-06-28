@@ -1,0 +1,360 @@
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+    .heading{
+        font-size: 40px;
+        background: url(/images/bgdesign.svg) no-repeat 73% 18px;
+        background-size: 100px;
+    }
+/* ! Header Section Start */
+    nav{
+        width: 100%;
+        padding: 20px;
+    }
+    .nav-center{
+        display: none;
+    }
+    .nav-right>a>.btn{
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+/* ! Header Section End */
+/* ! Hero Section Start */
+
+.mid-hero--section{
+    width: 100%;
+    padding: 0px 20px;
+}
+.mid-hero--section>img{
+    width: 200px;
+}
+.mid-hero--section>h1{
+    font-size: 32px;
+    line-height: 50px;
+    margin-top: 30px;
+}
+.mid-hero--section>p{
+    font-size: 16px;
+    line-height: 25px;
+    margin: 30px 0px;
+}
+.btn1{
+    font-size: 16px;
+}
+/* ! Hero Section End */
+/* ! About Section Start */
+.mid-aboutus{
+    width: 100%;
+    padding: 0px 20px;
+}
+.about-left{
+    display: none;
+}
+.about-right>p{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.lang-container{
+    margin: 50px 0px 0px 0px;
+}
+.lang-items>ul>li{
+    font-size: 18px;
+    gap: 30px;
+}
+.lang-items>ul>li:nth-child(2){
+    gap: 44px;
+}
+.lang-items>ul>li:nth-child(3){
+    gap: 83px;
+}
+.lang-items>ul>li:nth-child(4){
+    gap: 70px;
+}
+.achivements-container{
+    gap: 30px;
+    flex-direction: column;
+}
+.achivements-items{
+    border-left: none;
+    padding-left: 0px;
+}
+/* ! About Section End */
+/* ! Services Section Start */
+.mid-services{
+    max-width: 100%;
+    padding: 0px 20px;
+}
+.services-items{
+    flex-basis: 100%;
+}
+.services-items>h4{
+    font-size: 26px;
+}
+/* ! Services Section End */
+/* ! Project Work Section Start */
+.mid-latest--work{
+    max-width: 100%;
+    padding: 0px 20px;
+}
+.work-items{
+    flex-basis: 100%;
+}
+.work-items img{
+    width: 100%;
+}
+.btn3{
+    padding: 18px 20px;
+    margin: 10px auto;
+    font-size: 18px;
+}
+/* ! Projectt Work Section End */
+/* ! Get in Touch Section Start */
+.mid-get--touch{
+    max-width: 100%;
+    padding: 0px 20px;
+}
+.get-touch--container{
+    flex-direction: column;
+}
+.get-touch--left{
+    flex-basis: 100%;
+    margin-left: 0px;
+}
+.get-touch--left>h3{
+    font-size: 30px;
+}
+.get-touch--left>p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.get-touch--left>.social-media{
+    align-items: center;
+    justify-content: center;
+}
+.get-touch--right{
+    flex-basis: 100%;
+}
+form{
+    width: 100%;
+}
+.btn4{
+    padding: 15px;
+    font-size: 18px;
+}
+/* ! Get in Touch Section End */
+/* ! Footer Section Start */
+.first-footer{
+    max-width: 100%;
+    padding: 0px 20px;
+}
+.first-footer--container{
+    flex-direction: column;
+    gap: 40px;
+}
+.first-footer--items>input{
+    font-size: 16px;
+    padding: 15px;
+    margin-right: 10px;
+}
+.first-footer--items>.btn{
+    padding: 15px 10px;
+}
+.second-footer{
+    max-width: 100%;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+.second-footer>ul{
+    display: none;
+}
+/* ! Footer Section End */
+/* ! Position Arrow Section Start */
+.circle{
+    right: 5%;
+}
+/* ! Position Arrow Section End */
+}
+
+@media only screen and (min-width: 576px) and (max-width: 991px){
+/* ! Header Section Start */
+    nav{
+        width: 100%;
+        padding: 20px;
+    }
+    .nav-center>ul{
+        gap: 30px;
+    }
+    .nav-center>ul>li>a{
+        font-size: 18px;
+    }
+/* ! Header Section End */
+/* ! Hero Section Start */
+.mid-hero--section{
+    width: 100%;
+    padding: 0px 20px;
+}
+.mid-hero--section>p{
+    font-size: 22px;
+    margin: 30px 0px;
+}
+.btn1{
+    padding: 20px;
+    font-size: 25px;
+}
+/* ! About Section Start */
+.mid-aboutus{
+    max-width: 100%;
+    padding: 0px 20px;
+}
+.about-container{
+    gap: 40px;
+}
+.about-right>p{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.lang-items>ul>li{
+    font-size: 24px;
+    gap: 30px;
+}
+.lang-items>ul>li:nth-child(2){
+    gap: 47px;
+}
+.lang-items>ul>li:nth-child(3){
+    gap: 100px;
+}
+.lang-items>ul>li:nth-child(4){
+    gap: 81px;
+}
+.achivements-items{
+    padding-left: 0px;
+    border: none;
+}
+/* ! About Section End */
+/* ! Services Section Start */
+.mid-services{
+    max-width: 100%;
+    padding: 0px 20px;
+}
+.services-items{
+    flex-basis: 45%;
+}
+.services-items>h4{
+    font-size: 26px;
+}
+/* ! Services Section End */
+/* ! Latest Work Section Start */
+.mid-latest--work{
+    width: 100%;
+    padding: 0px 20px; 
+}
+.work-items{
+    flex-basis: 45%;
+}
+.work-items img{
+    width: 100%;
+}
+.btn3{
+    margin: 20px auto;
+}
+/* ! Latest Work Section End */
+/* ! Get in Touch Section Start */
+.mid-get--touch{
+    width: 100%;
+    padding: 0px 20px; 
+}
+.get-touch--container{
+    flex-direction: column;
+    align-items: stretch;
+}
+.get-touch--left{
+    margin-left: 0px;
+}
+.get-touch--left>p{
+    font-size: 24px;
+}
+.get-touch--left>ul>li{
+    font-size: 24px;
+    padding: 15px 0px;
+}
+.get-touch--left>.social-media{
+    gap: 0px;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.social-media>li>a{
+    font-size: 50px;
+}
+.get-touch--right{
+    flex-basis: 100%;
+    display: flex;
+}
+form{
+    width: 200%;
+    margin: auto;
+    height: inherit;
+}
+form .form-row{
+    margin: 50px 0px;
+    gap: 20px;
+}
+.form-row>label{
+    font-size: 24px;
+}
+.form-row>input{
+    font-size: 22px;
+    padding: 20px 15px;
+}
+.btn4{
+    padding: 20px;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+/* ! Get in Touch Section End */
+/* ! Footer Section Start */
+.first-footer{
+    width: 100%;
+    padding: 0px 20px; 
+}
+.first-footer--container{
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.first-footer--items>.logo-txt{
+    font-size: 50px;
+    text-align: center;
+}
+.first-footer--items>p{
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+}
+.second-footer{
+    max-width: 100%;
+    padding: 0px 20px;
+    flex-direction: column;
+}
+.second-footer>div{
+    padding-top: 20px;
+    font-size: 28px;
+}
+.second-footer>ul{
+    gap: 0px;
+}
+.second-footer>ul>li{
+    font-size: 18px;
+    margin: 20px;
+}
+/* ! Footer Section End */
+/* ! Position Arrow Section Start */
+.circle{
+    width: 80px;
+    height: 80px;
+    right: 3%;
+}
+.position-arrow i{
+    font-size: 30px;
+}
+/* ! Position Arrow Section End */
+}
